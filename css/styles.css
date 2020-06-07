@@ -1,3 +1,103 @@
 body {
-  background-color: #ffffff;
+  background-color: #e5e5e5;
+  color: #212121;
+}
+/*основний цвет текста #212121 */
+/*вторичный цвет текста #757575*/
+/*белый #FFFFFF*/
+/*акцент #2196F3*/
+/*цвет фона в футере #2F303A*/
+/* цвет копирайта в футере  color: rgba(255, 255, 255, 0.4);*/
+
+.logo {
+  color: #212121;
+}
+.accent {
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+
+/* Site nav */
+.site-nav a {
+  color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+.site-nav.site-nav.link:hover {
+  color: #2196f3;
+}
+.contact-nav {
+  color: #757575;
+}
+
+.contact-nav:hover,
+.contact-nav:focus {
+  color: #2196f3;
+}
+a {
+  text-decoration: none;
+}
+
+/* Hero */
+.hero-title {
+  color: #c4c4c4;
+}
+
+.button-primary {
+  color: #c4c4c4;
+  background-color: #2196f3;
+}
+/* Features */
+.feature-title {
+  color: #212121;
+}
+
+/* Work list */
+.work-title {
+  color: #ffffff;
+}
+
+/* Our team */
+.our-team {
+  color: #212121;
+}
+.team-name {
+  color: #212121;
+}
+.team-title {
+  color: #757575;
+}
+/* Customers */
+.customers {
+  color: #212121;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.adress {
+  color: #ffffff;
+}
+.contacts {
+  color: rgba(255, 255, 255, 0, 6);
+}
+.join {
+  color: #ffffff;
+}
+.sign {
+  color: #ffffff;
+}
+
+.follow-us {
+  color: #212121;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0, 4);
 }
