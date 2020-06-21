@@ -6,18 +6,24 @@
   --primary-white-color: #ffffff;
   --primary-background-color: #e5e5e5;
   --secondary-background-color: #2f303a;
-  --copyright-color: rgba(255, 255, 255, 0, 4);
+  --hero-background-color: rgba(47, 48, 58, 0.8);
+  --feature-background-color: #f5f4fa;
+  --services-background-color: rgba(33, 150, 243, 0.9);
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --copyright-color: rgba(255, 255, 255, 0.4);
 }
 
 body {
-  background-color: var(--primary-background-color);
-  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 
 .list {
   list-style: none;
+}
+/* Header */
+.page-header {
+  background-color: var(--primary-white-color);
 }
 
 /* Logo */
@@ -84,9 +90,14 @@ a {
 }
 
 /* Hero */
+.hero {
+  background-color: var(--hero-background-color);
+}
+
 .hero-title {
-  color: var(--secondary-text-color);
+  color: var(--primary-white-color);
   font-weight: 900;
+  font-style: normal;
   font-size: 44px;
   line-height: 1, 36;
   letter-spacing: 0.06em;
@@ -94,7 +105,7 @@ a {
 }
 
 .button-primary {
-  color: var(--secondary-text-color);
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
@@ -116,8 +127,12 @@ a {
   line-height: 1, 71;
 }
 
+.feature .list a {
+  background-color: var(--feature-background-color);
+}
+
 /* Work list */
-.work {
+.work-name {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -126,12 +141,19 @@ a {
 
 .work-title {
   color: var(--primary-white-color);
+  background-color: var(--hero-background-color);
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1, 14;
 }
 
 /* Our team */
+
+.team {
+  background-color: var(--feature-background-color);
+}
+
 .our-team {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -199,6 +221,7 @@ a {
 
 .services-text {
   color: var(--primary-white-color);
+  background-color: var(--services-background-color);
   font-weight: 400;
   font-size: 18px;
   line-height: 1, 56;
@@ -216,7 +239,7 @@ a {
   line-height: 1, 71;
 }
 .contacts {
-  color: var(--secondary-text-color);
+  color: var(--contacts-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
